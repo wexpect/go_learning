@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go_learn_go/util"
+	"go_learning/util"
 )
 
 func main() {

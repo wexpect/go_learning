@@ -17,6 +17,7 @@ go build
 
 
 # build and install
+cd src/
 go install package_path_under_src
 
 
