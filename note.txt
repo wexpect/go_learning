@@ -1,0 +1,41 @@
+## How to write Go code
+https://golang.org/doc/code.html
+
+# default GOPATH is $HOME/go
+
+# set GOPATH
+https://github.com/golang/go/wiki/SettingGOPATH
+
+# Print current GOPATH
+go env GOPATH
+
+# build
+go build
+
+# run
+./executable_name
+
+
+# build and install
+go install package_path_under_src
+
+
+# test
+go test go_learn_go/util
+
+
+
+
+
+# Add project into GitHub
+# https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+Create a new repository go_learn_go on GitHub. To avoid errors, do not initialize the new repository with README, license, or gitignore files. You can add these files after your project has been pushed to GitHub.
+Open Terminal.
+
+git init
+git add .
+git commit -m "First commit"
+git remote add origin git@github.com:wexpect/go_learn_go.git
+git remote -v
+git push -u origin master
+
